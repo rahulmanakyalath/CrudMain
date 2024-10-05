@@ -38,8 +38,8 @@ public class StudentService {
         return udt;
     }
 
-    public Student getStudentDetails(String name, String fatehrname){
-        Student std =studentRepo.Studentdetails(name,fatehrname);
+    public Student getStudentDetails(String name, String fathername){
+        Student std =studentRepo.Studentdetails(name,fathername);
         System.out.println(std);
 
         return std;
